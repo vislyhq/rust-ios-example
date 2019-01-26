@@ -1,0 +1,611 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		761FB8EE21FD03970077E882 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 761FB8ED21FD03970077E882 /* AppDelegate.swift */; };
+		761FB8F021FD03970077E882 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 761FB8EF21FD03970077E882 /* ViewController.swift */; };
+		761FB8F321FD03970077E882 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 761FB8F121FD03970077E882 /* Main.storyboard */; };
+		761FB8F521FD03990077E882 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 761FB8F421FD03990077E882 /* Assets.xcassets */; };
+		761FB8F821FD03990077E882 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 761FB8F621FD03990077E882 /* LaunchScreen.storyboard */; };
+		761FB90321FD03990077E882 /* hello_rustTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 761FB90221FD03990077E882 /* hello_rustTests.swift */; };
+		761FB90E21FD039A0077E882 /* hello_rustUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 761FB90D21FD039A0077E882 /* hello_rustUITests.swift */; };
+		761FB91D21FD03D50077E882 /* librust.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 761FB91C21FD03D50077E882 /* librust.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		761FB8FF21FD03990077E882 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 761FB8E221FD03970077E882 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 761FB8E921FD03970077E882;
+			remoteInfo = "hello-rust";
+		};
+		761FB90A21FD039A0077E882 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 761FB8E221FD03970077E882 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 761FB8E921FD03970077E882;
+			remoteInfo = "hello-rust";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		761FB8EA21FD03970077E882 /* hello-rust.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "hello-rust.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		761FB8ED21FD03970077E882 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		761FB8EF21FD03970077E882 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		761FB8F221FD03970077E882 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		761FB8F421FD03990077E882 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		761FB8F721FD03990077E882 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		761FB8F921FD03990077E882 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		761FB8FE21FD03990077E882 /* hello-rustTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "hello-rustTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		761FB90221FD03990077E882 /* hello_rustTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = hello_rustTests.swift; sourceTree = "<group>"; };
+		761FB90421FD03990077E882 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		761FB90921FD039A0077E882 /* hello-rustUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "hello-rustUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		761FB90D21FD039A0077E882 /* hello_rustUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = hello_rustUITests.swift; sourceTree = "<group>"; };
+		761FB90F21FD039A0077E882 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		761FB91C21FD03D50077E882 /* librust.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = librust.a; path = libs/librust.a; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		761FB8E721FD03970077E882 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				761FB91D21FD03D50077E882 /* librust.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		761FB8FB21FD03990077E882 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		761FB90621FD039A0077E882 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		761FB8E121FD03970077E882 = {
+			isa = PBXGroup;
+			children = (
+				761FB8EC21FD03970077E882 /* hello-rust */,
+				761FB90121FD03990077E882 /* hello-rustTests */,
+				761FB90C21FD039A0077E882 /* hello-rustUITests */,
+				761FB8EB21FD03970077E882 /* Products */,
+				761FB91B21FD03D40077E882 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		761FB8EB21FD03970077E882 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				761FB8EA21FD03970077E882 /* hello-rust.app */,
+				761FB8FE21FD03990077E882 /* hello-rustTests.xctest */,
+				761FB90921FD039A0077E882 /* hello-rustUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		761FB8EC21FD03970077E882 /* hello-rust */ = {
+			isa = PBXGroup;
+			children = (
+				761FB8ED21FD03970077E882 /* AppDelegate.swift */,
+				761FB8EF21FD03970077E882 /* ViewController.swift */,
+				761FB8F121FD03970077E882 /* Main.storyboard */,
+				761FB8F421FD03990077E882 /* Assets.xcassets */,
+				761FB8F621FD03990077E882 /* LaunchScreen.storyboard */,
+				761FB8F921FD03990077E882 /* Info.plist */,
+			);
+			path = "hello-rust";
+			sourceTree = "<group>";
+		};
+		761FB90121FD03990077E882 /* hello-rustTests */ = {
+			isa = PBXGroup;
+			children = (
+				761FB90221FD03990077E882 /* hello_rustTests.swift */,
+				761FB90421FD03990077E882 /* Info.plist */,
+			);
+			path = "hello-rustTests";
+			sourceTree = "<group>";
+		};
+		761FB90C21FD039A0077E882 /* hello-rustUITests */ = {
+			isa = PBXGroup;
+			children = (
+				761FB90D21FD039A0077E882 /* hello_rustUITests.swift */,
+				761FB90F21FD039A0077E882 /* Info.plist */,
+			);
+			path = "hello-rustUITests";
+			sourceTree = "<group>";
+		};
+		761FB91B21FD03D40077E882 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				761FB91C21FD03D50077E882 /* librust.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		761FB8E921FD03970077E882 /* hello-rust */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 761FB91221FD039A0077E882 /* Build configuration list for PBXNativeTarget "hello-rust" */;
+			buildPhases = (
+				761FB8E621FD03970077E882 /* Sources */,
+				761FB8E721FD03970077E882 /* Frameworks */,
+				761FB8E821FD03970077E882 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "hello-rust";
+			productName = "hello-rust";
+			productReference = 761FB8EA21FD03970077E882 /* hello-rust.app */;
+			productType = "com.apple.product-type.application";
+		};
+		761FB8FD21FD03990077E882 /* hello-rustTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 761FB91521FD039A0077E882 /* Build configuration list for PBXNativeTarget "hello-rustTests" */;
+			buildPhases = (
+				761FB8FA21FD03990077E882 /* Sources */,
+				761FB8FB21FD03990077E882 /* Frameworks */,
+				761FB8FC21FD03990077E882 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				761FB90021FD03990077E882 /* PBXTargetDependency */,
+			);
+			name = "hello-rustTests";
+			productName = "hello-rustTests";
+			productReference = 761FB8FE21FD03990077E882 /* hello-rustTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		761FB90821FD039A0077E882 /* hello-rustUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 761FB91821FD039A0077E882 /* Build configuration list for PBXNativeTarget "hello-rustUITests" */;
+			buildPhases = (
+				761FB90521FD039A0077E882 /* Sources */,
+				761FB90621FD039A0077E882 /* Frameworks */,
+				761FB90721FD039A0077E882 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				761FB90B21FD039A0077E882 /* PBXTargetDependency */,
+			);
+			name = "hello-rustUITests";
+			productName = "hello-rustUITests";
+			productReference = 761FB90921FD039A0077E882 /* hello-rustUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		761FB8E221FD03970077E882 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = "Emil Sjölander";
+				TargetAttributes = {
+					761FB8E921FD03970077E882 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					761FB8FD21FD03990077E882 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 761FB8E921FD03970077E882;
+					};
+					761FB90821FD039A0077E882 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 761FB8E921FD03970077E882;
+					};
+				};
+			};
+			buildConfigurationList = 761FB8E521FD03970077E882 /* Build configuration list for PBXProject "hello-rust" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 761FB8E121FD03970077E882;
+			productRefGroup = 761FB8EB21FD03970077E882 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				761FB8E921FD03970077E882 /* hello-rust */,
+				761FB8FD21FD03990077E882 /* hello-rustTests */,
+				761FB90821FD039A0077E882 /* hello-rustUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		761FB8E821FD03970077E882 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				761FB8F821FD03990077E882 /* LaunchScreen.storyboard in Resources */,
+				761FB8F521FD03990077E882 /* Assets.xcassets in Resources */,
+				761FB8F321FD03970077E882 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		761FB8FC21FD03990077E882 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		761FB90721FD039A0077E882 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		761FB8E621FD03970077E882 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				761FB8F021FD03970077E882 /* ViewController.swift in Sources */,
+				761FB8EE21FD03970077E882 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		761FB8FA21FD03990077E882 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				761FB90321FD03990077E882 /* hello_rustTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		761FB90521FD039A0077E882 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				761FB90E21FD039A0077E882 /* hello_rustUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		761FB90021FD03990077E882 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 761FB8E921FD03970077E882 /* hello-rust */;
+			targetProxy = 761FB8FF21FD03990077E882 /* PBXContainerItemProxy */;
+		};
+		761FB90B21FD039A0077E882 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 761FB8E921FD03970077E882 /* hello-rust */;
+			targetProxy = 761FB90A21FD039A0077E882 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		761FB8F121FD03970077E882 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				761FB8F221FD03970077E882 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		761FB8F621FD03990077E882 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				761FB8F721FD03990077E882 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		761FB91021FD039A0077E882 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		761FB91121FD039A0077E882 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		761FB91321FD039A0077E882 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = KQLECB7YW7;
+				HEADER_SEARCH_PATHS = "$(PROJECT_DIR)/include";
+				INFOPLIST_FILE = "hello-rust/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/libs",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "app.visly.hello-rust";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "$(PROJECT_DIR)/include/rust.h";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		761FB91421FD039A0077E882 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = KQLECB7YW7;
+				HEADER_SEARCH_PATHS = "$(PROJECT_DIR)/include";
+				INFOPLIST_FILE = "hello-rust/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/libs",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "app.visly.hello-rust";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "$(PROJECT_DIR)/include/rust.h";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		761FB91621FD039A0077E882 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "hello-rustTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "app.visly.hello-rustTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/hello-rust.app/hello-rust";
+			};
+			name = Debug;
+		};
+		761FB91721FD039A0077E882 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "hello-rustTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "app.visly.hello-rustTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/hello-rust.app/hello-rust";
+			};
+			name = Release;
+		};
+		761FB91921FD039A0077E882 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "hello-rustUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "app.visly.hello-rustUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "hello-rust";
+			};
+			name = Debug;
+		};
+		761FB91A21FD039A0077E882 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "hello-rustUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "app.visly.hello-rustUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "hello-rust";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		761FB8E521FD03970077E882 /* Build configuration list for PBXProject "hello-rust" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				761FB91021FD039A0077E882 /* Debug */,
+				761FB91121FD039A0077E882 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		761FB91221FD039A0077E882 /* Build configuration list for PBXNativeTarget "hello-rust" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				761FB91321FD039A0077E882 /* Debug */,
+				761FB91421FD039A0077E882 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		761FB91521FD039A0077E882 /* Build configuration list for PBXNativeTarget "hello-rustTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				761FB91621FD039A0077E882 /* Debug */,
+				761FB91721FD039A0077E882 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		761FB91821FD039A0077E882 /* Build configuration list for PBXNativeTarget "hello-rustUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				761FB91921FD039A0077E882 /* Debug */,
+				761FB91A21FD039A0077E882 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 761FB8E221FD03970077E882 /* Project object */;
+}
